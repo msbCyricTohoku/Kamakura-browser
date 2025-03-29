@@ -1,0 +1,42 @@
+name: CI Build
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    # Use a known Ubuntu release that includes libwebkit2gtk-4.0-dev
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Enable Universe and Update
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y software-properties-common
+          sudo add-apt-repository universe
+          sudo apt-get update
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get install -y \
+            build-essential \
+            cmake \
+            pkg-config \
+            libgtk-3-dev \
+            libwebkit2gtk-4.0-dev
+
+      - name: Configure with CMake
+        run: cmake -B build
+
+      - name: Build with CMake
+        run: cmake --build build
+
+      # (Optional) If you have tests, run them:
+      - name: Run tests
+        run: ctest --test-dir build
