@@ -25,20 +25,43 @@
 ## Getting Started
 
 ### Prerequisites
+
 - A C compiler (GCC, Clang, or any other standards-compliant compiler).
-- [CMake](https://cmake.org/) (optional, but recommended for easier builds).
+- [CMake](https://cmake.org/) 3.10 or higher (recommended).
 - Basic development tools (make, etc.) depending on your platform.
+- **GTK 3 development libraries** and **WebKitGTK 4 development libraries**.
 
-### Building from Source
+Below are examples of how to install these on popular Linux distributions:
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/kamakura-browser.git
-cd kamakura-browser
+**Ubuntu / Debian**
 
-# 2. Build using CMake (recommended)
-cmake -B build
-cmake --build build
+```
+sudo apt update
+sudo apt install \
+    build-essential \
+    cmake \
+    pkg-config \
+    libgtk-3-dev \
+    libwebkit2gtk-4.0-dev
+```
+**Arch**
+```
+sudo pacman -Syu
+sudo pacman -S --needed \
+    base-devel \
+    cmake \
+    pkgconf \
+    gtk3 \
+    webkit2gtk
+```
+**Redhat**
+```
+sudo dnf install \
+    gcc \
+    gcc-c++ \
+    cmake \
+    pkg-config \
+    gtk3-devel \
+    webkit2gtk3-devel
+```
 
-# 3. Alternatively, build with a compiler directly
-gcc src/*.c -o kamakura-browser `pkg-config --cflags --libs gtk+-3.0`
