@@ -1,6 +1,6 @@
 # Kamakura Browser
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/msbCyricTohoku/Kamakura-browser/ci-build.yml?style=flat-square)](https://github.com/msbCyricTohoku/Kamakura-browser/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/msbCyricTohoku/Kamakura-browser/ci-build.yml?branch=main&style=flat-square)](https://github.com/msbCyricTohoku/Kamakura-browser/actions)
 [![License](https://img.shields.io/github/license/msbCyricTohoku/Kamakura-browser?style=flat-square)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/msbCyricTohoku/Kamakura-browser?style=flat-square)](https://github.com/msbCyricTohoku/Kamakura-browser/issues)
 [![Forks](https://img.shields.io/github/forks/msbCyricTohoku/Kamakura-browser?style=flat-square)](https://github.com/msbCyricTohoku/Kamakura-browser/network)
