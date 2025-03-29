@@ -1,10 +1,11 @@
 # Kamakura Browser
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/your-username/kamakura-browser/ci-build.yml?style=flat-square)](https://github.com/your-username/kamakura-browser/actions)
-[![License](https://img.shields.io/github/license/your-username/kamakura-browser?style=flat-square)](LICENSE)
-[![Issues](https://img.shields.io/github/issues/your-username/kamakura-browser?style=flat-square)](https://github.com/your-username/kamakura-browser/issues)
-[![Forks](https://img.shields.io/github/forks/your-username/kamakura-browser?style=flat-square)](https://github.com/your-username/kamakura-browser/network)
-[![Stars](https://img.shields.io/github/stars/your-username/kamakura-browser?style=flat-square)](https://github.com/your-username/kamakura-browser/stargazers)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/msbCyricTohoku/Kamakura-browser/ci-build.yml?style=flat-square)](https://github.com/msbCyricTohoku/Kamakura-browser/actions)
+[![License](https://img.shields.io/github/license/msbCyricTohoku/Kamakura-browser?style=flat-square)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/msbCyricTohoku/Kamakura-browser?style=flat-square)](https://github.com/msbCyricTohoku/Kamakura-browser/issues)
+[![Forks](https://img.shields.io/github/forks/msbCyricTohoku/Kamakura-browser?style=flat-square)](https://github.com/msbCyricTohoku/Kamakura-browser/network)
+[![Stars](https://img.shields.io/github/stars/msbCyricTohoku/Kamakura-browser?style=flat-square)](https://github.com/msbCyricTohoku/Kamakura-browser/stargazers)
+
 
 **Kamakura Browser** is a lightweight yet powerful browser written in C, focused on protecting your online privacy. It blocks intrusive trackers and avoids harvesting any user data, giving you full control over your web experience.
 
