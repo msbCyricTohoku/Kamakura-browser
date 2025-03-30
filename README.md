@@ -66,3 +66,10 @@ sudo dnf install \
     webkit2gtk3-devel
 ```
 
+**Compile**
+```
+mkdir build
+cd build 
+cmake ..
+make
+```
