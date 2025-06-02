@@ -7,7 +7,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-#define APP_FLAGS G_APPLICATION_DEFAULT_FLAGS
+#define APP_FLAGS G_APPLICATION_FLAGS_NONE
 #define NUM_CHILDREN 128
 
 //init config
