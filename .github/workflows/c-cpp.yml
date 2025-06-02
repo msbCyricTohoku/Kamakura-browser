@@ -27,10 +27,10 @@ jobs:
             build-essential \
             cmake \
             pkg-config \
-            libglib2.0-dev          # Provides G_APPLICATION_DEFAULT_FLAGS, etc.
-            libgirepository1.0-dev  # Introspection headers required by GTK/WebKit
-            libgtk-3-dev            # GTK 3 development files
-            libwebkit2gtk-4.0-dev   # WebKitGTK 4.0 development files
+            libglib2.0-dev \
+            libgirepository1.0-dev \
+            libgtk-3-dev \
+            libwebkit2gtk-4.0-dev
 
       - name: Configure with CMake
         run: cmake -B build
